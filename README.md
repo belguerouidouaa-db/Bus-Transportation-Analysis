@@ -1,6 +1,6 @@
 # Bus Transportation Analysis
 
-> An Excel-based analysis of bus ridership and route utilization, exploring passenger demand, route performance, time patterns, and operational efficiency.
+> An Excel-based analysis of bus ridership and fleet utilization, exploring passenger demand, operating periods, route performance, and bus utilization.
 
 `EXCEL` · `DATA ANALYSIS` · `DATA VISUALIZATION` · `BUSINESS ANALYTICS`
 
@@ -8,45 +8,54 @@
 
 ## Project Overview
 
-This project analyzes bus transportation data using **Excel** to understand passenger demand and route utilization.
+This project uses **Excel** to analyze bus transportation data from both a passenger-demand and operational perspective.
 
-The analysis focuses on **ridership patterns across routes, days, and time periods**, while also classifying buses and routes based on utilization to identify areas of strong and weak performance.
+The analysis is presented through **two dashboards**. The first focuses on overall ridership patterns, demand across different time periods, and fleet utilization. The second provides a more detailed view of **utilization across individual routes and weekdays**, helping identify where transportation capacity may be over- or under-utilized.
 
 ---
 
-## Dashboard Preview
+## Dashboard Previews
+
+### Ridership & Utilization Overview
 
 <p align="center">
-  <img src="assets/bus-transportation-dashboard.png" alt="Bus Transportation Analysis Dashboard" width="100%">
+  <img src="assets/bus-ridership-dashboard.png" alt="Bus Ridership and Utilization Dashboard" width="100%">
+</p>
+
+### Route & Weekday Utilization
+
+<p align="center">
+  <img src="assets/bus-utilization-dashboard.png" alt="Bus Route and Weekday Utilization Dashboard" width="100%">
 </p>
 
 ---
 
 ## Analysis Focus
 
-- Overall ridership and average passenger volume
-- Passenger demand by **route**
-- Ridership patterns by **day and time period**
+- Passenger demand across different **time ranges**
+- Monthly and yearly **ridership distribution**
+- Ridership patterns across **weekdays**
 - **AM vs PM** passenger distribution
-- Route and bus **utilization levels**
-- Identification of **over-utilized, well-utilized, and under-utilized** services
-- Comparison of route performance and passenger demand
+- Peak and off-peak operating periods
+- Overall fleet classification into **over-utilized, well-utilized, and under-utilized buses**
+- Utilization levels across individual **bus routes**
+- Comparison of **bus utilization by weekday**
 
 ---
 
 ## Key Insights
 
-- The analyzed transportation network recorded **6,587 total riders across 10 routes**, averaging approximately **659 passengers per route**.
+- The **10 AM–3 PM period** recorded the highest passenger volume with **2,243 riders**, making it the strongest demand period.
 
-- **East-West Express** was the highest-performing route with **1,322 riders**, followed closely by **Central Line with 1,271 riders**. Together, the top routes contribute a substantial share of overall passenger volume.
+- Passenger activity was considerably higher during **PM trips**, which accounted for approximately **64.6% of total riders**, compared with **35.4% during AM trips**.
 
-- Ridership was highest during the **10 AM–3 PM period**, which recorded **2,243 riders**, making it the strongest demand window in the analysis.
+- Overall fleet analysis classified approximately **49% of buses as well-utilized**, while **26% were over-utilized** and **25% were under-utilized**, showing that roughly half of the fleet operated outside the desired utilization range.
 
-- Passenger activity was higher during **PM hours**, accounting for approximately **64.6% of riders**, compared with **35.4% during AM hours**.
+- The route-level analysis shows that utilization is **not distributed equally across routes**. Some routes contain a greater number of well-utilized buses, while others show a stronger presence of over- or under-utilized buses.
 
-- **Monday and Sunday exceeded the average daily ridership level**, with 1,085 and 1,185 riders respectively, highlighting stronger demand on these days.
+- Weekday analysis provides an additional view of when utilization is **high or low**, helping identify periods where bus capacity could potentially be redistributed.
 
-- Utilization analysis identified a mix of **over-utilized, well-utilized, and under-utilized** services, helping highlight where capacity may need to be increased or redistributed.
+Together, the two dashboards show both **when passenger demand occurs and where fleet capacity is being used effectively or inefficiently**.
 
 ---
 
@@ -54,10 +63,10 @@ The analysis focuses on **ridership patterns across routes, days, and time perio
 
 | Area | Skills |
 |---|---|
-| **Excel** | PivotTables, formulas, data analysis, dashboard development |
-| **Data Visualization** | Charts, KPI reporting, conditional formatting |
-| **Data Analysis** | Ridership trends, route comparison, time-based analysis |
-| **Business Analytics** | Capacity and utilization analysis, operational insights |
+| **Excel** | PivotTables, formulas, dashboard development |
+| **Data Visualization** | KPI reporting, charts, conditional formatting |
+| **Data Analysis** | Ridership, route, time-period and utilization analysis |
+| **Business Analytics** | Capacity analysis and operational performance evaluation |
 
 ---
 
@@ -70,11 +79,12 @@ Bus-Transportation-Analysis/
 ├── bus_transportation_analysis.xlsx
 │
 └── assets/
-    └── bus-transportation-dashboard.png
+    ├── bus-ridership-dashboard.png
+    └── bus-utilization-dashboard.png
 ```
 
 ---
 
 ## Conclusion
 
-This project demonstrates how **Excel can be used to analyze transportation demand and operational performance**, identifying differences in ridership across routes, days, and time periods while highlighting opportunities for better capacity allocation.
+This project demonstrates how **Excel can be used to evaluate both passenger demand and transportation capacity**. By combining overall ridership analysis with route- and weekday-level utilization, the dashboards help identify demand patterns and areas where fleet allocation could be improved.
